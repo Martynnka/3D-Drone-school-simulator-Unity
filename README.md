@@ -7,11 +7,12 @@ and progression-based unlocks.
 Work in Progress
 
 ## Current Features
-- Drone/player movement
-- Training map
+- Drone movement 
+- Main Map
 - Main Menu
 
 ## Planned Features
+-Player movement
 - Second freestyle map
 - Drone unlock system
 - UI
@@ -19,9 +20,18 @@ Work in Progress
 - Coins system
 
 ## Controls
-- WASD – move
-- Space / Ctrl – up / down
-- R – reset drone
+Movement:
+Throttle — W
+Strafe Left — A
+Strafe Right — D
+Ascend — Z
+Auto-Level — X
+
+Rotation:
+Pitch Up — Space
+Pitch Down — Shift
+Roll Left — Q
+Roll Right — E
 
 ## Tech
 - Unity 3D

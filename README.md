@@ -12,7 +12,7 @@ Work in Progress
 - Main Menu
 
 ## Planned Features
--Player movement
+- Player movement
 - Second freestyle map
 - Drone unlock system
 - UI

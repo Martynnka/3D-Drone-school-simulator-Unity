@@ -12,13 +12,14 @@ Work in Progress
 - Main Menu
 - Computer Menu (Start Drone Flight, Controls, Turn Down button, credits panel.)
 - Player movement
+- Training area
 
 
 ## Planned Features
-- Second freestyle map
 - Drone unlock system
 - Mini rank system
 - Coins system
+- ESC Menu
 
 ## Controls
 Movement:

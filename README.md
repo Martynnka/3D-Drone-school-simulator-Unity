@@ -10,12 +10,13 @@ Work in Progress
 - Drone movement 
 - Main Map
 - Main Menu
+- Computer Menu (Start Drone Flight, Controls, Turn Down button, credits panel.)
+- Player movement
+
 
 ## Planned Features
-- Player movement
 - Second freestyle map
 - Drone unlock system
-- UI
 - Mini rank system
 - Coins system
 
@@ -32,6 +33,10 @@ Pitch Up — Space
 Pitch Down — Shift
 Roll Left — Q
 Roll Right — E
+
+Player Movement:
+Forward - W
+Backward
 
 ## Tech
 - Unity 3D

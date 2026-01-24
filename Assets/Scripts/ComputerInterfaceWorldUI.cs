@@ -5,8 +5,7 @@ public class ComputerInteractWorldUI : MonoBehaviour
     public GameObject promptCanvas;
     public GameObject computerPanel;
 
-    [Header("Disable movement script when using computer")]
-    public MonoBehaviour movementScript; // <- čia užtempk PlayerMovement (ar kitą) scriptą iš Player
+    public MonoBehaviour movementScript;
 
     public KeyCode interactKey = KeyCode.E;
     private bool playerInRange;
@@ -21,7 +20,7 @@ public class ComputerInteractWorldUI : MonoBehaviour
     {
         if (!playerInRange) return;
 
-        // kad nespaudytum E kai panelė jau atidaryta
+     
         if (computerPanel != null && computerPanel.activeSelf) return;
 
         if (Input.GetKeyDown(interactKey))
@@ -33,7 +32,7 @@ public class ComputerInteractWorldUI : MonoBehaviour
         if (promptCanvas) promptCanvas.SetActive(false);
         if (computerPanel) computerPanel.SetActive(true);
 
-        if (movementScript) movementScript.enabled = false; // ✅ stop movement
+        if (movementScript) movementScript.enabled = false; 
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -45,7 +44,7 @@ public class ComputerInteractWorldUI : MonoBehaviour
     {
         if (computerPanel) computerPanel.SetActive(false);
 
-        if (movementScript) movementScript.enabled = true; // ✅ resume movement
+        if (movementScript) movementScript.enabled = true;
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -69,3 +68,4 @@ public class ComputerInteractWorldUI : MonoBehaviour
         if (promptCanvas) promptCanvas.SetActive(false);
     }
 }
+

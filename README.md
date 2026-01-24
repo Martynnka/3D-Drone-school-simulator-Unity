@@ -33,10 +33,14 @@ Pitch Up — Space
 Pitch Down — Shift
 Roll Left — Q
 Roll Right — E
+Quit Drone mode - P
 
 Player Movement:
 Forward - W
-Backward
+Backward - S
+Right - D
+Left - A
+Jump - Space
 
 ## Tech
 - Unity 3D

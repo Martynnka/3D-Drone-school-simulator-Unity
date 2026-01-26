@@ -13,13 +13,13 @@ Work in Progress
 - Computer Menu (Start Drone Flight, Controls, Turn Down button, credits panel.)
 - Player movement
 - Training area
+- ESC Menu
 
 
 ## Planned Features
 - Drone unlock system
 - Mini rank system
 - Coins system
-- ESC Menu
 
 ## Controls
 Movement:
